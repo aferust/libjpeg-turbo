@@ -77,7 +77,7 @@ elseif(MINGW)
   set(INST_NAME ${CMAKE_PROJECT_NAME}-${VERSION}-${INST_ID})
   set(INST_REG_NAME ${CMAKE_PROJECT_NAME}-${INST_ID})
   set(INST_DEFS -DGCC)
-else
+else()
   set(INST_PLATFORM "Visual C++")
   set(INST_ID vc)
   set(INST_NAME ${CMAKE_PROJECT_NAME}-${VERSION}-${INST_ID})
